@@ -1,12 +1,12 @@
-function newFolderName(names) {
-  if (!names.includes("New Folder")) {
-    return "New Folder";
+function newFolderName (names) {
+  if (!names.includes('New Folder')) {
+    return 'New Folder'
   } else {
-    let i = 2;
+    let i = 2
     while (names.includes(`New Folder (${i})`)) {
-      i++;
+      i++
     }
-    return `New Folder (${i})`;
+    return `New Folder (${i})`
   }
 }
 
